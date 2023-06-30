@@ -1,7 +1,7 @@
 {
-  "name": "@digitalbazaar/FIXME-context",
+  "name": "@digitalbazaar/vc-render-method-context",
   "version": "0.0.1",
-  "description": "FIXME JSON-LD context for JavaScript.",
+  "description": "VC Render Method JSON-LD context for JavaScript.",
   "main": "js/index.js",
   "module": "./dist/context.esm.js",
   "files": [
@@ -13,18 +13,27 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/digitalbazaar/FIXME-context"
+    "url": "https://github.com/digitalbazaar/vc-render-method-context"
   },
   "bugs": {
-    "url": "https://github.com/digitalbazaar/FIXME-context/issues"
+    "url": "https://github.com/digitalbazaar/vc-render-method-context/issues"
   },
   "author": {
     "name": "Digital Bazaar, Inc.",
     "email": "support@digitalbazaar.com",
     "url": "https://digitalbazaar.com/"
   },
-  "homepage": "https://github.com/digitalbazaar/FIXME-context#readme",
+  "homepage": "https://github.com/digitalbazaar/vc-render-method-context#readme",
   "license": "BSD-3-Clause",
+  "keywords": [
+    "JSON-LD context",
+    "JSON-LD",
+    "Linked Data",
+    "VC Render Method",
+    "VC",
+    "Verifiable Credentials",
+    "context"
+  ],
   "devDependencies": {
     "@babel/core": "^7.22.5",
     "@babel/plugin-transform-modules-commonjs": "^7.22.5",
