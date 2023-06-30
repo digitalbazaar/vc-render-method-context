@@ -1,4 +1,4 @@
-# @digitalbazaar/FIXME-context ChangeLog
+# @digitalbazaar/vc-render-method-context ChangeLog
 
 ## 1.0.0 - TBD
 
