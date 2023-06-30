@@ -5,7 +5,7 @@
 module.exports = {
   output: {
     libraryTarget: 'commonjs',
-    filename: 'context.js'
+    filename: 'main.js'
   },
   mode: 'production',
   entry: './js/index.js',
