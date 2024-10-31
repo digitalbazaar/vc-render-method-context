@@ -22,6 +22,10 @@ module.exports.tests = function({contexts, metadata, named, expect}) {
       {
         id: 'https://w3id.org/vc/render-method/v1',
         name: 'v1'
+      },
+      {
+        id: 'https://w3id.org/vc/render-method/v2rc1',
+        name: 'v2rc1'
       }
     ];
 
