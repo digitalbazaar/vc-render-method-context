@@ -1,6 +1,12 @@
+Context data files in this repository are from the [vc-render-method][] spec and
+are licensed by contributors under the [W3C Software and Document License][].
+
+All other files are licensed under a BSD 3-Clause license:
+
+```
 BSD 3-Clause License
 
-Copyright (c) 2023, Digital Bazaar, Inc.
+Copyright (c) 2023-2024, Digital Bazaar, Inc.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -27,3 +33,7 @@ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+```
+
+[vc-render-method]: https://github.com/w3c-ccg/vc-render-method
+[W3C Software and Document License]: http://www.w3.org/Consortium/Legal/copyright-software

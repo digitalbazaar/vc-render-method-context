@@ -1,7 +1,10 @@
 module.exports = function(config) {
   const frameworks = ['mocha', 'chai'];
 
-  const files = ['*.spec.js'];
+  const files = [
+    {pattern: '*.spec.js', type: 'module'},
+    {pattern: '*.spec.cjs', type: 'js'}
+  ];
 
   // browser launchers: https://npmjs.org/browse/keyword/karma-launcher
   // browsers: ['ChromeHeadless', 'Chrome', 'Firefox', 'Safari'],
@@ -12,7 +15,6 @@ module.exports = function(config) {
     mocha: {
       timeout: 10000, // 10 sec
       reporter: 'html'
-      //delay: true
     }
   };
 
@@ -33,7 +35,7 @@ module.exports = function(config) {
 
     // level of logging
     // possible values: config.LOG_DISABLE || config.LOG_ERROR ||
-    //   config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG
+    // config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG
     logLevel: config.LOG_INFO,
 
     singleRun: true,
@@ -47,6 +49,7 @@ module.exports = function(config) {
     // https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
       '*.spec.js': preprocessors,
+      '*.spec.cjs': preprocessors
     },
 
     webpack: {
