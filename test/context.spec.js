@@ -1,28 +1,19 @@
 /*!
- * Copyright (c) 2023 Digital Bazaar, Inc. All rights reserved.
+ * Copyright (c) 2023-2024 Digital Bazaar, Inc. All rights reserved.
  */
-const chai = require('chai');
+import chai from 'chai';
 chai.should();
 const {expect} = chai;
 
-const {
-  CONTEXT, CONTEXT_URL, appContextMap, contexts, constants
-} = require('..');
+import {
+  contexts,
+  metadata,
+  named
+} from '../lib/index.js';
+import {
+  tests
+} from './context.common.cjs';
 
-describe('Context', () => {
-  it('constants', async () => {
-    expect(appContextMap).to.exist;
-    expect(constants).to.exist;
-    expect(constants).to.have.property('CBORLD_VALUE');
-    expect(CONTEXT_URL).to.exist;
-    expect(CONTEXT).to.exist;
-  });
-
-  it('contexts', async () => {
-    expect(contexts.get(CONTEXT_URL)).to.have.property('@context');
-  });
-
-  it('appContextMap', async () => {
-    expect(appContextMap.get(CONTEXT_URL)).to.exist;
-  });
+describe('Context (import)', () => {
+  tests({contexts, metadata, named, expect});
 });
