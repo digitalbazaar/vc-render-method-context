@@ -85,6 +85,10 @@ spec contexts.
   - URL: `https://w3id.org/vc/render-method/v2rc1`
   - Short name: `v2rc1`
   - Status: under development
+- VC Render Method v2rc2 context
+  - URL: `https://w3id.org/vc/render-method/v2rc2`
+  - Short name: `v2rc2`
+  - Status: under development
 
 ## Developing
 
