@@ -4,17 +4,17 @@
 module.exports.tests = function({contexts, metadata, named, expect}) {
   it('contexts', async () => {
     expect(metadata).to.exist;
-    expect(metadata.size).to.equal(2);
+    expect(metadata.size).to.equal(3);
   });
 
   it('metadata', async () => {
     expect(metadata).to.exist;
-    expect(metadata.size).to.equal(2);
+    expect(metadata.size).to.equal(3);
   });
 
   it('named', async () => {
     expect(named).to.exist;
-    expect(named.size).to.equal(2);
+    expect(named.size).to.equal(3);
   });
 
   it('contents', async () => {
@@ -26,6 +26,10 @@ module.exports.tests = function({contexts, metadata, named, expect}) {
       {
         id: 'https://w3id.org/vc/render-method/v2rc1',
         name: 'v2rc1'
+      },
+      {
+        id: 'https://w3id.org/vc/render-method/v2rc2',
+        name: 'v2rc2'
       }
     ];
 
